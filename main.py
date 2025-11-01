@@ -24,7 +24,7 @@ except ModuleNotFoundError as e:
 class UltravoxSTT:
     """Standalone Ultravox Speech-to-Text processor"""
     
-    def __init__(self, model_name="fixie-ai/ultravox-v0_5-llama-3_1-8b"):
+    def __init__(self, model_name="fixie-ai/ultravox-v0_6-gemma-3-27b"):
         """Initialize the Ultravox STT processor
         
         Args:
