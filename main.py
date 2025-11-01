@@ -173,7 +173,7 @@ async def main():
     
     # Configuration
     audio_file = "ul.mp3"
-    model_name = "fixie-ai/ultravox-v0_5-llama-3_1-8b"
+    model_name = "fixie-ai/ultravox-v0_6-gemma-3-27b"
     
     # Check if audio file exists
     if not os.path.exists(audio_file):
